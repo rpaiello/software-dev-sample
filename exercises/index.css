@@ -1,0 +1,114 @@
+.box1{
+    width: 150px;
+    height: 100px;
+    background-color: dodgerblue;
+    padding: 20px;
+    border: 5px solid blue;
+}
+
+.box2 {
+    width: 100px;
+    height: 80px;
+    background-color: teal;
+    margin: auto 10px;
+}
+
+.box3 {
+    width: 200px;
+    height: 150px;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.underline {
+    text-decoration: underline;
+    text-decoration-color: maroon;
+}
+
+.strikethrough {
+    text-decoration: line-through;
+}
+
+.overline {
+    text-decoration: overline;
+}
+
+.block {
+    display: block;
+    background-color: aqua;
+    margin: 5px;
+}
+
+.inline {
+    display: inline;
+    background-color: aquamarine;
+}
+
+.iblock {
+    display: inline-block;
+    background-color: lightskyblue;
+    padding: 5px;
+}
+
+.flex {
+    display: flex;
+    gap: 10px;
+}
+
+div.flex {
+    background: maroon;
+    padding: 10px;
+}
+
+.px{
+    font-size: 20px;
+}
+
+.em {
+    font-size: 2em;
+}
+
+.percent {
+    font-size: 150%;
+}
+
+.bgi {
+    background-image: url("media/FANTASTIC WEBSITE.gif");
+    font-size: 3em;
+}
+
+form {
+    margin: 10px auto;
+}
+
+input {
+    font-family: Consolas;
+    display: block;
+    margin: 3px;
+    border-radius: 50px;
+    border: 3px solid gray;
+}
+
+button{
+    padding: 10px 15px;
+    background: darkgray;
+    font-weight: bold;
+    border-radius: 2px;
+    border: 0px;
+    margin: 5px auto auto auto
+}
+
+@keyframes speen {
+    0% {transform: rotateY(0deg);}
+    100% {transform: rotateY(360deg);}
+}
+
+button:hover {
+    outline: 3px solid dodgerblue;
+    animation-name: speen;
+    animation-timing-function: linear;
+    animation-duration: 500ms;
+    animation-iteration-count: infinite;
+}
