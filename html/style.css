@@ -1,0 +1,11 @@
+.bg {
+    background-image: url("media/FANTASTIC WEBSITE.gif");
+}
+
+.front {
+    width: 80%;
+    background-color: lightgray;
+    justify-self: center;
+    position:  relative;
+    top: -10px;
+}
