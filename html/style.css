@@ -1,3 +1,8 @@
+@font-face {
+    font-family: courierstuck;
+    src: url("fonts/courierstuck.ttf");
+}
+
 .bg {
     background-image: url("media/FANTASTIC WEBSITE.gif");
 }
@@ -8,4 +13,27 @@
     justify-self: center;
     position:  relative;
     top: -10px;
+}
+
+.stuck {
+    font-family: courierstuck;
+    font-size: 2em;
+}
+
+.center {
+    justify-self: center;
+}
+
+#rpa {
+    color: pink;
+    text-shadow: 5px 5px 0px dimgray;
+}
+
+.title {
+    font-size: 5em;
+}
+
+.subtitle {
+    font-size: 1em;
+    color: gray;
 }
