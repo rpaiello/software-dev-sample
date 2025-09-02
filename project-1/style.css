@@ -12,6 +12,7 @@
     background-color: lightgray;
     justify-self: center;
     position:  relative;
+    height: 100%;
     top: -10px;
 }
 
@@ -22,15 +23,16 @@
 
 .center {
     justify-self: center;
+    text-align: center;
 }
 
 #rpa {
     color: pink;
-    text-shadow: 5px 5px 0px dimgray;
+    text-shadow: 6px 6px 0px dimgray;
 }
 
 .title {
-    font-size: 5em;
+    font-size: 6em;
 }
 
 .subtitle {
